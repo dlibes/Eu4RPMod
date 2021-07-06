@@ -677,11 +677,11 @@ curonia_area = { #3
 }
 
 east_prussia_area = { #5
-	40 41 767 2958 42
+	40 41 767 2958
 }
 
 west_prussia_area = { #3 (South West Prussia)
-	2997 43 1841
+	2997 43 42 1841
 }
 
 wielkopolska_area = { #5

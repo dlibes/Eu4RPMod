@@ -1,0 +1,50 @@
+country_decisions = {
+	get_colonist = {
+			major = yes
+			potential = {
+				NOT = { has_country_flag = colonist_one }
+			}
+			allow = {
+				treasury = 2500
+				adm_tech = 5
+			}
+			effect = {
+				set_country_flag = colonist_one
+				
+				add_treasury = -2500
+				hidden_effect = {
+					
+				}
+				mod
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+	get_conquistador = {
+		potential = {
+			has_country_flag = colonist_one
+		}
+		allow = {
+			mil_power= 50
+		}
+		effect = {
+			add_mil_power = -50
+			}
+			create_conquistador = { tradition = 20 }
+	}
+	get_explorer = {
+		potential = {
+			has_country_flag = colonist_one
+		}
+		allow = {
+			dip_power= 50
+		}
+		effect = {
+			add_dip_power = -50
+			}
+			create_explorer = { tradition = 20 }
+	}
+}

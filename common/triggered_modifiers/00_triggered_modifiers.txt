@@ -7,6 +7,25 @@
 ###########################################
 # Discovery of the East Indian trade route.
 ###########################################
+colonist_one = {
+	potential = {
+		
+	}
+	trigger = {
+		has_country_flag = colonist_one
+	}
+	colonists = 1
+}
+can_explore = {
+	potential = {
+		
+	}
+	trigger = {
+		has_country_flag = colonist_one
+	}
+	may_explore = yes
+}
+
 east_indian_trade_route = {
 	potential = {
 		num_of_ports = 1
